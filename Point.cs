@@ -1,11 +1,12 @@
 ﻿class Point
 {
-    public double x {  get; set; }
-    public double y { get; set; }
+    private double X, y;
+    public double X {  get; set; }
+    public double Y { get; set; }
 
     public Point(double x, double y)
     {
-        this.x = x;
+        this.X = x;
         this.y = y;
     }
 
