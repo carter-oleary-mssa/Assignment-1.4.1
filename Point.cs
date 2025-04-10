@@ -1,6 +1,7 @@
 ﻿class Point
 {
-    private double x, y;
+    public double x {  get; set; }
+    public double y { get; set; }
 
     public Point(double x, double y)
     {
@@ -8,6 +9,4 @@
         this.y = y;
     }
 
-    public double getX() { return x; }
-    public double getY() { return y; }
 }
