@@ -1,5 +1,5 @@
 ﻿Point P1 = new Point(0, 0);
-Point P2 = new Point(2, 3);
+Point P2 = new Point(-4, 3);
 
 Console.WriteLine($"Point 1: ({P1.X}, {P1.Y})");
 Console.WriteLine($"Point 2: ({P2.X}, {P2.Y})");
